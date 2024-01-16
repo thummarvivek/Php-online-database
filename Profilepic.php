@@ -14,7 +14,7 @@ $con = new mysqli("localhost","id20010924_firstproject","androidVivek@09876","id
 // 	 $profile_picture=$_REQUEST['Profile_picture'];
 
 
-     $url="https://vivekthummarandroid.000webhostapp.com/English_project/$path";
+     $url="https://VivekGroup.com/English_project/$path";
      
 
      $ins = "UPDATE `Registration` SET `Profile_picture`='$url' WHERE `User_id`='$Id'"; 
